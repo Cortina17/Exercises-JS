@@ -13,14 +13,20 @@ export function compare(){
 
     let result = document.createElement('p');
 
+    let compare = 0;
+
     let array = [numb1, numb2, numb3];
-    // if (numb1 > numb2 && numb1 > numb3){
+    
+    for (let i = 0; i < array.length; i++) {
+        if(compare < array[i]){
+            compare = array[i];
+        }
+    }
+    result.innerHTML = compare;
+    parent.appendChild(result);
+}
+
+// if (numb1 > numb2 && numb1 > numb3){
     //     result.innerHTML = numb1;
     //     parent.appendChild(result);
     // }
-
-    for (let i = 0; i < array.length; i++) {
-        
-
-    }
-}
