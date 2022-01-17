@@ -4,5 +4,5 @@ export function greater(){
     let second = document.getElementById('second-num').value;
     let p = document.getElementById('number');
 
-    p.innerHTML = first > second ? first : second;
+    p.innerHTML = first > second ? first : second > first ? second: 'They are equals!';
 }
