@@ -1,0 +1,23 @@
+{
+  "name": "exes-js",
+  "version": "1.0.0",
+  "description": "1.- Write a program that writes on screen a text that says \"Hello World\" /// Escribe un programa que escriba en la pantalla un texto que diga “Hello World”.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cortina17/Exercises-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cortina17/Exercises-JS/issues"
+  },
+  "homepage": "https://github.com/Cortina17/Exercises-JS#readme",
+  "devDependencies": {
+    "jest": "^27.4.7"
+  }
+}

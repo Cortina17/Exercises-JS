@@ -1,4 +1,12 @@
-# Compilation of JavaScript exercises / Ejercicios de Javascript.
+# Installation
+
+- npm install
+
+## Run tests
+
+- npm test
+
+### Compilation of JavaScript exercises / Ejercicios de Javascript.
 
 1.- Write a program that writes on screen a text that says "Hello World" /// Escribe un programa que escriba en la pantalla un texto que diga “Hello World”.
 
