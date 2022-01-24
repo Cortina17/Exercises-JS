@@ -5,7 +5,7 @@ export function divisors() {
 
     for (let i = 1; i <= number; i++) {
         if (number % i == 0) {
-            result.innerHTML = "The divisors of " + number + " are: " + i;
+            result.innerHTML += "The divisors of " + number + " are: " + i + ".<br>";
         }
     }
 }
