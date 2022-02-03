@@ -1,16 +1,14 @@
 function prime(n) {
 
-    if (n <= 1) {
-        return 'is not a prime number'
-    }
-
-    if (n === 2) {
-        return 'is a prime number'
-    }
-
-    for (let i = 2; i < n; i++) {
-        if (n % i === 0) {
-            return 'is not a prime number'
+    if(n <= 0){
+        return 'You need to write a number greater than 1';
+    } else if(n === 1){
+        return '1 is not prime nor composite';
+    } else {
+        for (let i = 2; i < n; i++) {
+            if (n % i === 0) {
+                return 'is not a prime number'
+            }
         }
     }
     return 'is a prime number'
