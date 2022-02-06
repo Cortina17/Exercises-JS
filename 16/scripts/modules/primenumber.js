@@ -1,4 +1,4 @@
-export function prime() {
+export function isPrime() {
 
     let n = document.getElementById('input-text').value;
 
@@ -10,9 +10,8 @@ export function prime() {
         for (let i = 2; i < n; i++) {
             if (n % i === 0) {
                 result.innerHTML = 'is not a prime number'
-                break;
             }
         }
+        result.innerHTML = 'is not a prime number'
     }
-    result.innerHTML = 'is a prime number'
 }

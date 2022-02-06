@@ -1,4 +1,4 @@
-function prime(n) {
+function isPrime(n) {
 
     if(n <= 0){
         return 'You need to write a number greater than 1';
@@ -14,4 +14,4 @@ function prime(n) {
     return 'is a prime number'
 }
 
-module.exports = prime;
+module.exports = isPrime;
