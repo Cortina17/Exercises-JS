@@ -9,7 +9,7 @@ function showGrades(num){
     }else if(num < 5 && num >= 3){
         return 'Insuficient';
     } else if(num < 3 && num >= 0){
-        return 'Too poor'
+        return 'Too poor';
     }
 }
 
