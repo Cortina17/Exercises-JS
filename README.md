@@ -30,7 +30,7 @@
 
 11.- Write a program that asks for a phrase and writes how many times each of the vowels appears /// Escribe un programa que pida una frase y escriba cuántas veces aparecen cada una de las vocales
 
-12.- Write a program that asks for a number and tells us if it is divisible by 2, 3, 5 or 7 (you just have to check if it is divisible by one of the four) /// Escribe un programa que pida un número y nos diga si es divisible por 2, 3, 5 o 7 (sólo hay que comprobar si lo es por uno de los cuatro)
+12.- Write a program that asks for a number and tells us if it is divisible by 2, 3, 5 or 7 (you just have to check if it is divisible by one of the four) /// Escribe un programa que pida un número y nos diga si es divisible por 2, 3, 5 o 7 (sólo hay que comprobar si lo es por uno de los cuatro).~Done & tested~
 
 13.- Add to the previous exercise: program should tells us by which of the four it is divisible (we must say all by which it is divisible) /// Añadir al ejercicio anterior: que nos diga por cuál de los cuatro es divisible (hay que decir todos por los que es divisible)
 
