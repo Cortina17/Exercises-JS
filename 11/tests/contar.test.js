@@ -3,8 +3,8 @@ const countVowels = require('../scripts/contar.js')
 describe('test', () => {
 
     test('Test if every vowel is counted', () => {
-        expect(countVowels('hello')).toBe([0, 1, 0, 1, 0]);
-        // expect(countVowels('deLUsiOnaL')).toBe(['a = 1', 'e = 1', 'i = 1', 'o = 1', 'u = 1']);
+        expect(countVowels('hello')).toBe([0,1,0,1,0]);
+        expect(countVowels('deLUsiOnaL')).toBe([1,1,1,1,1]);
         // expect(countVowels('cmptr scnc')).toBe('There are no vowels in this phrase!');
     });
     test('Test if each vowel is counted the right amount of times', () => {

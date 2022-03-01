@@ -1,4 +1,4 @@
-import { divby } from './modules/divby.js';
+import { isDivisible } from './modules/divisibleby.js'
 
 const btn_get = document.getElementById('btn-get');
-btn_get.addEventListener('click', divby);
+btn_get.addEventListener('click', isDivisible);

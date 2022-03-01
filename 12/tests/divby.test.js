@@ -1,14 +1,20 @@
-const divby = require('../scripts/divby.js');
+const divisibleBy = require("../scripts/divisible.js");
 
-describe('test', () => {
-
-    test('Test if function returns the first number by which a given number is divisible by', () => {
-        expect(divby(4).toBe('x es divisble por 2'));
-        expect(divby(8).toBe(2));
-        expect(divby(3).toBe(3));
-        expect(divby(9).toBe(3));
-        expect(divby(35).toBe(5));
-        expect(divby(7).toBe(7));
-        expect(divby(49).toBe(7));
+describe('Divisible', () => {
+    test('if number is divisible by 2', () => {
+        expect(divisibleBy(2)).toBe("Divisible by 2");
+    });
+    test('if number is divisible by 3', () => {
+        expect(divisibleBy(3)).toBe("Divisible by 3");
+    });
+    test('if number is divisible by 5', () => {
+        expect(divisibleBy(5)).toBe("Divisible by 5");
+    });
+    test('if number is divisible by 7', () => {
+        expect(divisibleBy(7)).toBe("Divisible by 7");
+    });
+    
+    test('if number is not divisible by 2, 3, 5 or 7', () => {
+        expect(divisibleBy(11)).toBe("Not divisible by 2, 3, 5 or 7");
     })
-})
+});
