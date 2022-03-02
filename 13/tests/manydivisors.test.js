@@ -1,6 +1,10 @@
 const howManyDivisors = require('../scripts/manydivisors.js');
 
 describe('test how many divisors', () => {
+
+    test('if number is divisible by 2', () => {
+        expect(howManyDivisors(2)).toBe("Divisible by 2.")
+    });
     test('if number is divisible by 2 and 3', () => {
         expect(howManyDivisors(6)).toBe("Divisible by 2 and 3.")
     });
@@ -47,6 +51,6 @@ describe('test how many divisors', () => {
     });
 
     test('if number is not divisible by 2, 3, 5 or 7', () => {
-        expect(howManyDivisors(104)).toBe("Not divisible by 2, 3, 5 or 7.")
+        expect(howManyDivisors(101)).toBe("Not divisible by 2, 3, 5 or 7.")
     });
 });
