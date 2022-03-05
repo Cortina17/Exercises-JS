@@ -5,6 +5,18 @@ describe('test how many divisors', () => {
     test('if number is divisible by 2', () => {
         expect(howManyDivisors(2)).toBe("Divisible by 2.")
     });
+
+    test('if number is divisible by 3', () => {
+        expect(howManyDivisors(3)).toBe("Divisible by 3.")
+    });
+
+    test('if number is divisible by 5', () => {
+        expect(howManyDivisors(5)).toBe("Divisible by 5.")
+    });
+
+    test('if number is divisible by 7', () => {
+        expect(howManyDivisors(7)).toBe("Divisible by 7.")
+    });
     test('if number is divisible by 2 and 3', () => {
         expect(howManyDivisors(6)).toBe("Divisible by 2 and 3.")
     });
