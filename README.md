@@ -6,7 +6,7 @@
 
 - npm test
 
-### Compilation of JavaScript exercises / Ejercicios de Javascript.
+### Compilation of JavaScript exercises / Ejercicios de Javascript
 
 1.- Write a program that writes on screen a text that says "Hello World" /// Escribe un programa que escriba en la pantalla un texto que diga “Hello World”. ~Done~
 
@@ -46,14 +46,14 @@
 
 19.- Calculate the letter of the ID. The algorithm to calculate the letter of the ID is as follows: /// Calcula la letra del DNI (Documento nacional de identidad). El algoritmo para calcular la letra del dni es el siguiente :
 
-The number must be between 0 and 99999999. 
-We must calculate the remainder of the integer division between the number and the number 23. 
+The number must be between 0 and 99999999.
+We must calculate the remainder of the integer division between the number and the number 23.
 Depending on the result, from 0 to 22, one of the following letters will correspond:
-(T, R, W, A, G, M, Y, F, P, D, X, B, N, J, Z, S, Q, V, H, L, C, K, E). 
-If what is entered is not a number, it should be indicated with an alert and ask again. 
+(T, R, W, A, G, M, Y, F, P, D, X, B, N, J, Z, S, Q, V, H, L, C, K, E).
+If what is entered is not a number, it should be indicated with an alert and ask again.
 The process must be repeated until the user presses «cancel».
-/// El número debe ser entre 0 y 99999999 Debemos calcular el resto de la división entera entre el número y el número 23. 
-///Según el resultado, de 0 a 22, le corresponderá una letra de las siguientes: 
+/// El número debe ser entre 0 y 99999999 Debemos calcular el resto de la división entera entre el número y el número 23.
+///Según el resultado, de 0 a 22, le corresponderá una letra de las siguientes:
 ///(T, R, W, A, G, M, Y, F, P, D, X, B, N, J, Z, S, Q, V, H, L, C, K, E).
 ///Si lo introducido no es un número deberá indicarse con un alert y volver a preguntar.
 ///Deberá de repetirse el proceso hasta que el usuario pulse «cancelar». ~Done & tested~
