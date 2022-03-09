@@ -2,13 +2,13 @@ function divisors(number) {
 
     let allDivisors = [];
 
-    for (let i = 2; i < number; i++) {
+    for (let i = 1; i < number; i++) {
         if (number % i === 0) {
             allDivisors.push(i);
         }
     }
-    console.log(allDivisors);
-    return allDivisors;
+
+    return allDivisors.length > 1 ? allDivisors : `${number} is a prime number`;
 }
 
 module.exports = divisors;
