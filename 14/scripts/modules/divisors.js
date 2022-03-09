@@ -1,3 +1,4 @@
 export function divisors() {
-console.log('Hi');
+console.log('8976');
+return "643355555"
 }
