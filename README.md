@@ -36,7 +36,7 @@
 
 14.- Write a program that prints the divisors of a given number to the screen. /// Escribir un programa que escriba en pantalla los divisores de un número dado. ~Done & tested~
 
-15.- Write a program that prints to the screen the common divisors of two given numbers. /// Escribir un programa que escriba en pantalla los divisores comunes de dos números dados
+15.- Write a program that prints to the screen the common divisors of two given numbers. /// Escribir un programa que escriba en pantalla los divisores comunes de dos números dados.
 
 16.- Write a program that tells us if a given number is prime (it is not divisible by any number other than itself or the unit) /// Escribir un programa que nos diga si un número dado es primo (no es divisible por ninguno otro número que no sea él mismo o la unidad)
 
