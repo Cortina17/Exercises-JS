@@ -34,7 +34,7 @@
 
 13.- Add to the previous exercise: program should tells us by which of the four it is divisible (we must say all by which it is divisible) /// Añadir al ejercicio anterior: que nos diga por cuál de los cuatro es divisible (hay que decir todos por los que es divisible). ~Done & tested~
 
-14.- Write a program that prints the divisors of a given number to the screen. /// Escribir un programa que escriba en pantalla los divisores de un número dado
+14.- Write a program that prints the divisors of a given number to the screen. /// Escribir un programa que escriba en pantalla los divisores de un número dado. ~Done & tested~
 
 15.- Write a program that prints to the screen the common divisors of two given numbers. /// Escribir un programa que escriba en pantalla los divisores comunes de dos números dados
 
