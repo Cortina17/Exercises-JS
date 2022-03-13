@@ -9,9 +9,9 @@ export function isPrime() {
     } else {
         for (let i = 2; i < n; i++) {
             if (n % i === 0) {
-                result.innerHTML = 'is not a prime number'
+                result.innerHTML = `${n} is not a prime number.`
             }
         }
-        result.innerHTML = 'is not a prime number'
+        result.innerHTML = `${n} is a prime number.`
     }
 }
