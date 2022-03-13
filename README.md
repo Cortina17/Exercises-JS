@@ -38,7 +38,7 @@
 
 15.- Write a program that prints to the screen the common divisors of two given numbers. /// Escribir un programa que escriba en pantalla los divisores comunes de dos números dados. ~Done & tested~
 
-16.- Write a program that tells us if a given number is prime (it is not divisible by any number other than itself or the unit) /// Escribir un programa que nos diga si un número dado es primo (no es divisible por ninguno otro número que no sea él mismo o la unidad)
+16.- Write a program that tells us if a given number is prime (it is not divisible by any number other than itself or the unit) /// Escribir un programa que nos diga si un número dado es primo (no es divisible por ninguno otro número que no sea él mismo o la unidad). ~Done & tested~
 
 17.- Create a program that asks for the age and if he is over 18 indicates that he can drive. /// Crea un programa que pida la edad y si es mayor de 18 indica que puede conducir. ~Done & tested~
 
