@@ -1,44 +1,42 @@
-//recuperar las vocales
-//recorrer el string. Cuando se encuentra una vocal, se recupera y se llevan a un array
-//Checkar cuantas veces aparece cada letra en el array
-
 function countVowels(str) {
     
-    let phrase = str.toLowerCase();
+    str = str.toLowerCase();
 
-    let a = [0],
-        e = [0],
-        i = [0],
-        o = [0],
-        u = [0],
-        consonants = 0;
+    let a = 0,
+    e = 0,
+    i = 0,
+    o = 0,
+    u = 0,
+    consonants = 0;
 
-    for (let index = 0; index < phrase.length; index++) {
-        let char = phrase.charAt(index);
-        if (char.match(/[aeiou]/)) {
-            switch (char) {
+    let total = []
+
+    for (let index = 0; index < str.length; index++) {
+        if (str[index].match(/[aeiou]/)) {
+            switch (str[index]) {
                 case 'a':
-                    a.push(1);
+                    a++;
                     break;
                 case 'e':
-                    e.push(index);
+                    e++;
                     break;
                 case 'i':
                     i++;
                     break;
                 case 'o':
-                    o.push(1);
+                    o++;
                     break;
                 case 'u':
                     u++;
                     break;
             }
-        } else if (char.match(/[bcdfghjklmnpqrstvwxyz]/)) {
+        } else if (str[index].match(/[bcdfghjklmnñpqrstvwxyz]/)) {
             consonants++;
         }
-        console.log(a.concat(e,i,o,u));
-        return a.concat(e,i,o,u);
     }
+    
+    total.push(a,e,i,o,u,consonants);
+    return total;
 }
 
 module.exports = countVowels;

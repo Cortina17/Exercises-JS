@@ -11,10 +11,9 @@ export function countvowels() {
         u = 0,
         consonants = 0;
 
-    for (let i = 0; i < phrase.length; i++) {
-        let char = phrase.charAt(i);
-        if (char.match(/[aeiou]/)) {
-            switch (char) {
+    for (let index = 0; index < phrase.length; index++) {
+        if (phrase[index].match(/[aeiou]/)) {
+            switch (phrase[index]) {
                 case 'a':
                     a++;
                     break;
@@ -31,9 +30,9 @@ export function countvowels() {
                     u++;
                     break;
             }
-        } else if (char.match(/[bcdfghjklmnpqrstvwxyz]/)) {
+        } else if (phrase[index].match(/[bcdfghjklmnñpqrstvwxyz]/)) {
             consonants++;
         }
+        parent.innerHTML = '<br>In the phrase "' + phrase + ('" there are: <br>' + a + ' a\'s,<br>' + e + ' e\'s,<br>' + i + ' i\'s,<br>' + o + ' o\'s <br> and ' + u + ' u\'s.<br>And there are ' + consonants + ' consonants in that phrase.');
     }
-    parent.innerHTML = '<br>In the phrase "' + phrase + ('" there are: <br>' + a + ' a\'s,<br>' + e + ' e\'s,<br>' + i + ' i\'s,<br>' + o + ' o\'s <br> and ' + u + ' u\'s.<br>And there are ' + consonants + ' consonants in that phrase.');
 }
