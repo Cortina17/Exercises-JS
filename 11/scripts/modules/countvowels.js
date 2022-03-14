@@ -35,5 +35,5 @@ export function countvowels() {
             consonants++;
         }
     }
-    parent.innerHTML = ('There are ' + a + ' a\'s in this phrase.<br>There are ' + e + ' e\'s in this phrase.<br>There are ' + i + ' i\'s in this phrase.<br>There are ' + o + ' o\'s in this phrase.<br>There are ' + u + ' u\'s in this phrase.<br>And there are ' + consonants + ' consonants in this phrase.');
+    parent.innerHTML = '<br>In the phrase "' + phrase + ('" there are: <br>' + a + ' a\'s,<br>' + e + ' e\'s,<br>' + i + ' i\'s,<br>' + o + ' o\'s <br> and ' + u + ' u\'s.<br>And there are ' + consonants + ' consonants in that phrase.');
 }
